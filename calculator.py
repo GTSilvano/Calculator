@@ -1,3 +1,4 @@
+from ast import main
 from secrets import choice
 
 
@@ -15,3 +16,7 @@ if choice == "1":
     print(num1, "+", num2, "=", (num1+num2))
 else:
     print("Error you dumb fuck")
+
+
+if __name__ == '__main__':
+    main()
